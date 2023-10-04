@@ -1,0 +1,41 @@
+# Comandos Flatpak y Descripción
+
+## Flatpak
+
+Flatpak es una tecnología de empaquetado y distribución de aplicaciones en sistemas Linux. Su objetivo principal es proporcionar un entorno de ejecución aislado y consistente para aplicaciones, lo que facilita la distribución y ejecución de software en diferentes distribuciones de Linux sin problemas de dependencias.
+
+# Comandos Flatpak
+
+
+# Instalar una aplicación Flatpak (reemplaza 'nombre-app' y 'nombre-repo' con valores reales)
+flatpak install nombre-repo nombre-app
+
+# Listar aplicaciones Flatpak instaladas
+flatpak list
+
+# Buscar aplicaciones disponibles en repositorios Flatpak (reemplaza 'nombre-app' con el nombre de la aplicación)
+flatpak search nombre-app
+
+# Actualizar todas las aplicaciones Flatpak instaladas
+flatpak update
+
+# Desinstalar una aplicación Flatpak (reemplaza 'nombre-app' con el nombre de la aplicación)
+flatpak uninstall nombre-app
+
+# Obtener información detallada sobre una aplicación Flatpak (reemplaza 'nombre-app' con el nombre de la aplicación)
+flatpak info nombre-app
+
+# Listar repositorios Flatpak remotos configurados
+flatpak remote-list
+
+# Añadir un nuevo repositorio Flatpak remoto (reemplaza 'nombre-repo' y 'URL-repo' con valores reales)
+flatpak remote-add --if-not-exists nombre-repo URL-repo
+
+# Eliminar un repositorio Flatpak remoto (reemplaza 'nombre-repo' con el nombre del repositorio)
+flatpak remote-delete nombre-repo
+
+# Ejecutar una aplicación Flatpak específica (reemplaza 'nombre-repo' y 'nombre-app' con los valores reales)
+flatpak run nombre-repo.nombre-app
+
+# Mostrar información sobre las instancias de aplicaciones Flatpak en ejecución
+flatpak ps
