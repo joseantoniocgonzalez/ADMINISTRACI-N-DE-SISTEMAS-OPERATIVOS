@@ -1,0 +1,15 @@
+# Comandos APT
+
+## APT -d install
+
+El comando `apt -d install` se utiliza para descargar un paquete pero no instalarlo de inmediato. Esto puede ser útil cuando deseas obtener el archivo de paquete (.deb) sin llevar a cabo la instalación. Los archivos descargados se almacenan en el directorio `/var/cache/apt/archives`.
+
+## AR -t
+
+El comando `ar -t` se utiliza para ver el contenido de un archivo de paquete Debian (.deb) sin abrirlo por completo. Los archivos .deb son archivos comprimidos que contienen programas y metadatos necesarios para la instalación. Utilizando `ar -t`, puedes inspeccionar la lista de archivos y metadatos almacenados en el paquete.
+
+## md5sum
+
+El comando `md5sum` se utiliza para calcular el valor de hash MD5 de un archivo. Un valor de hash MD5 es una secuencia de caracteres que representa la firma única del contenido de un archivo. Puedes utilizar `md5sum` para verificar la integridad de un archivo descargado o para comparar la identidad de un paquete con su valor de hash conocido. Por ejemplo:
+
+
